@@ -1,0 +1,39 @@
+.contact-card{
+    width: 400px;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color:  rgb(248, 163, 184);
+    box-shadow: 0 0 5px rgba(251, 235, 239);
+    position: relative;
+}
+
+.icon-delete-contact{
+    position: absolute;
+    bottom: 5px;
+    right: 50px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    padding: 3px;
+    border-radius: 50%;
+    background-color: lightgoldenrodyellow;
+}
+
+.icon-edit-contact{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    padding: 3px;
+    border-radius: 50%;
+    background-color: lightgoldenrodyellow;
+}
+
+.contact-name{
+    font-size: 20px;
+}
+
+.m-2{
+    margin: 1px;
+}
